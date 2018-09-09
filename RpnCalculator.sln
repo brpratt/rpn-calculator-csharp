@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpnCalculator", "RpnCalculator\RpnCalculator.csproj", "{EDB09029-C50B-4D85-8006-9F51241E1188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpnCalculator.Test", "RpnCalculator.Test\RpnCalculator.Test.csproj", "{937812D7-8EEA-45DD-8C3F-95C02BE426EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB09029-C50B-4D85-8006-9F51241E1188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB09029-C50B-4D85-8006-9F51241E1188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB09029-C50B-4D85-8006-9F51241E1188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB09029-C50B-4D85-8006-9F51241E1188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{937812D7-8EEA-45DD-8C3F-95C02BE426EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937812D7-8EEA-45DD-8C3F-95C02BE426EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937812D7-8EEA-45DD-8C3F-95C02BE426EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937812D7-8EEA-45DD-8C3F-95C02BE426EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7931D31-98C0-4BA8-AE8D-88CB738A744D}
+	EndGlobalSection
+EndGlobal
