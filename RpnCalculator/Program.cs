@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace RpnCalculator
 {
@@ -27,7 +28,8 @@ namespace RpnCalculator
 
         static void PrintStack(RpnCalculator rpn)
         {
-            Console.WriteLine($"stack: [{string.Join(" ", rpn.Stack.ToArray())}]");
+            var numbers = rpn.Stack.Reverse().ToArray();
+            Console.WriteLine($"stack: [{string.Join(" ", numbers)}]");
         }
     }
 }
