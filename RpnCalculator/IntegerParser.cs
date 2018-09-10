@@ -1,10 +1,17 @@
-﻿namespace RpnCalculator
+﻿using System;
+
+namespace RpnCalculator
 {
-    public static class IntegerParser
+    public class IntegerParser : IIntegerParser
     {
-        public static int Parse(string input)
+        public int Parse(string input)
         {
             return int.Parse(input);
         }
+    }
+
+    public interface IIntegerParser
+    {
+        int Parse(string input);
     }
 }
